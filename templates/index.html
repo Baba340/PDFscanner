@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>PDF処理ツール</title>
+</head>
+<body>
+  <h1>PDF → Excel変換（東北大成績抽出）</h1>
+  <form action="/process" method="post" enctype="multipart/form-data">
+    <label>記録PDFをアップロード: <input type="file" name="pdf" accept="application/pdf" required></label><br><br>
+    <label>名前と学年のExcel: <input type="file" name="excel" accept=".xlsx" required></label><br><br>
+    <input type="submit" value="実行してExcelを生成">
+  </form>
+</body>
+</html>
